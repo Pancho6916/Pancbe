@@ -1,0 +1,135 @@
+body {
+	background-image: url("https://images.unsplash.com/photo-1568528139106-c295280e4757?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80.jpg");
+	background-color: black;
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+  
+  header {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	text-align: center;
+  }
+  
+  h1 {
+	font-family: Arial, sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 40PX;
+  }
+  
+  nav {
+	background-color: rgba(0, 0, 0, 0.342);
+	padding: 10px;
+  }
+  
+  nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+  }
+  
+  nav li {
+	margin: 0 10px;
+	font-size: 30px;
+  }
+  
+  nav a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 14px 16px;
+  }
+  
+  nav a:hover {
+	color: rgba(0, 0, 0, 0.61);
+	background: white;
+  }
+  
+  section {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+  }
+  
+  h2 {
+	font-family: Arial, sans-serif;
+	color: white;
+  }
+  
+  .content-box {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 20px;
+	width: 45%;
+	font-size: 22px;
+  }
+  
+  .circle-image {
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	object-fit: cover;
+  }
+  
+  .vertical-nav {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	height: 100vh;
+	position: fixed;
+	right: 0;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  }
+  
+  .vertical-nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .vertical-nav li {
+	margin: 10px 0;
+  }
+  
+  .vertical-nav a {
+	color: white;
+	text-decoration: none;
+  }
+  
+  .vertical-nav a:hover {
+	color: rgb(0, 0, 0);
+  }
+  
+  .image-one{
+	position: relative;
+	top: 40px;
+	right: 650px;
+	
+  }
+
+
+  .image-two{
+	position: relative;
+	top: 40px;
+	right: 650px;
+  }
+
+
+
+  .footer-especial{
+	background-color: rgba(0, 0, 0, 0.568);
+	color: white;
+	padding: 20px;
+	margin-left: 40px;
+	margin-right: 291px;
+	font-family: monospace;
+	font-size: 25PX;
+	text-align: center;
+  }

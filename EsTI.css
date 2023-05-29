@@ -1,0 +1,146 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1569266318139-f96482583203?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80.jpg");
+	background-color: black;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 20px 0;
+    text-align: center;
+    background-image: linear-gradient(to right, #ffffff, #e7eb1b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+font-size: 40px;
+}
+
+
+h2 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    margin: 10px 0;
+    background-color: #08000083;
+    padding: 30px;
+    color: white;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px 0;
+    background-color: rgba(255, 255, 255, 0.342);
+    padding: 15px;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.video-container {
+    margin-top: 5px;
+    position: relative;
+    left: 9px;
+    top: -155px;
+}
+
+.video-container video {
+    width: 700px;
+    height: 750px;
+}
+
+
+
+
+
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+
+
+nav {
+    background-color: #0000009f;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+
+nav li {
+    float: left;
+    text-align: center;
+    justify-content: center
+    justify-items: center;
+}
+
+nav a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: center;
+    justify-items: center;
+    font-size: 30px;
+}
+
+nav a:hover {
+    background-color: #757171;
+}
+.p-one{
+    font-size:90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #fdfdf9;
+text-align: center;
+}
+
+.image-one{
+   justify-content: center;
+   text-align: center;
+}
+
+.image-two{
+    justify-content: center;
+   text-align: center;
+}
+
+.image-three{
+    justify-content: center;
+    text-align: center;  
+}
+
+.image-for{
+    justify-content: center;
+   text-align: center;
+}

@@ -1,0 +1,120 @@
+/* Estilos generales */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("https://get.wallhere.com/photo/1920x1200-px-architecture-buildings-cabins-houses-landscapes-lights-moonlight-mountains-nature-night-sky-snow-stars-trees-winter-1781625.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1.title {
+    font-family: 'Cursive', cursive;
+    font-size: 52px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #0000009f;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+
+nav li {
+    float: left;
+    text-align: center;
+    justify-content: center
+    justify-items: center;
+}
+
+nav a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: center;
+    justify-items: center;
+    font-size: 30px;
+}
+
+nav a:hover {
+    background-color: #757171;
+}
+p.intro {
+    font-size: 26px;
+    line-height: 1.5;
+    margin: 15px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 200px;
+    padding: 10px;
+    z-index: 5;
+    font-size: 20px;
+}
+
+.dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+nav ul li a.active,
+.dropdown-content a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+}
+
+footer p{
+    margin: 0;
+    left: 8740px;
+    top: 88800px;
+}
+
+.dropbtn{
+    font-size: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+   
+}

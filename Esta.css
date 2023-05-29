@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.unsplash.com/photo-1480983781676-79bfa184cc9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80.jpg");
+	background-color: black;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1.title {
+    font-size: 40px;
+    color: white;
+}
+
+p.subtitle {
+    font-size: 28px;
+    color: #ffffff;
+   
+}
+
+nav {
+    background-color: #0000009f;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+
+nav li {
+    float: left;
+    text-align: center;
+    justify-content: center
+    justify-items: center;
+}
+
+nav a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: center;
+    justify-items: center;
+    font-size: 30px;
+}
+
+nav a:hover {
+    background-color: #757171;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9c9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container {
+    width: 800px;
+    height: 450px;
+    margin-right: 50px;
+}
+
+.sidebar {
+    width: 200px;
+    /* Estilos adicionales para la barra lateral */
+}
